@@ -1,0 +1,78 @@
+#container {}
+
+.carre1 {
+    height: 33vh;
+    width: 33%;
+    background-color: red;
+}
+
+.carre2 {
+    height: 33vh;
+    width: 33%;
+    background-color: green;
+}
+
+.carre3 {
+    height: 33vh;
+    width: 33%;
+    background-color: orange;
+}
+
+@media (min-width:1024px) {
+    .carre1 {
+        height: 33vh;
+        width: 33%;
+        background-color: red;
+    }
+
+    .carre2 {
+        height: 33vh;
+        width: 33%;
+        background-color: green;
+    }
+
+    .carre3 {
+        height: 33vh;
+        width: 33%;
+        background-color: orange;
+    }
+}
+@media (min-width:600px) and (max-width:1024px) {
+    .carre1 {
+        height: 33vh;
+        width: 50%;
+        background-color: red;
+    }
+
+    .carre2 {
+        height: 33vh;
+        width: 50%;
+        background-color: green;
+    }
+
+    .carre3 {
+        height: 33vh;
+        width: 50%;
+        background-color: orange;
+    }
+}
+
+@media (min-width:320px) and (max-width:600px) {
+    .carre1 {
+        height: 33vh;
+        width: 100%;
+        background-color: red;
+    }
+
+    .carre2 {
+        height: 33vh;
+        width: 100%;
+        background-color: green;
+    }
+
+    .carre3 {
+        height: 33vh;
+        width: 100%;
+        background-color: orange;
+    }
+}

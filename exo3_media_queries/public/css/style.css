@@ -1,0 +1,27 @@
+.square {
+    height: 33vh;
+    width: 33%;
+    background-color: black;
+}
+
+@media (min-width:1024px) {
+    .square {
+        height: 33vh;
+        width: 33%;
+        background-color: blue;
+    }
+}
+@media (min-width:600px) and (max-width:1024px) {
+    .square {
+        height: 33vh;
+        width: 66%;
+        background-color: red;
+    }
+}
+@media (min-width:320px) and (max-width:600px) {
+    .square {
+        height: 33vh;
+        width: 100%;
+        background-color: orange;
+    }
+}
